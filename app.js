@@ -28,11 +28,11 @@ function initGame() {
   document.getElementById("player-1").classList.remove("active");
 
   //Дөрвөн шагайны зургаа оруулах
-  for (var x = 1; x < 5; x++) {
-    document.getElementById(
-      `bone-${x}`
-    ).src = `https://github.com/otgooJS/shagai-tablet2/blob/main/img/${x}_shagai.jpg`;
-  }
+  // for (var x = 1; x < 5; x++) {
+  //   document.getElementById(
+  //     `bone-${x}`
+  //   ).src = `https://github.com/otgooJS/shagai-tablet2/blob/main/img/${x}_shagai.jpg`;
+  // }
 
   //ШАГАЙ ХАЯХ ТОВЧ-нууд идэвхитэй байх ёстой
   document.getElementById("btn-0").disabled = false;

@@ -12,7 +12,7 @@
     width: var(--max-width)  ;
     height: var(--max-height);
     /* border: 1px solid red; */
-    background-image: url(https://github.com/otgooJS/shagai-tablet2/blob/main/img/Back_sized1.jpg); 
+    background-image: url(./img/Back_sized1.jpg); 
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
     width: var(--max-width);   
     height: 188.44px;
     top: 188.44px;
-    background-image: url(https://github.com/otgooJS/shagai-tablet2/blob/main/img/RacingPanel.jpg);
+    background-image: url(./img/RacingPanel.jpg);
     /* background-position: center; */
     background-size: cover;
     /* border: 2px, solid red; */

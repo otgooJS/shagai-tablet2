@@ -62,7 +62,9 @@ function shagaiRoll(player) {
   for (var x = 0; x < 4; x++) {
     var boneNr = Math.ceil(Math.random() * 4);
     //Санамсаргүй тоонд харгалзуулан шагайны зургийг оруулах
-    document.getElementById(`bone-${x + 1}`).src = `./img/${boneNr}_shagai.jpg`;
+    document.getElementById(
+      `bone-${x + 1}`
+    ).src = `../img/${boneNr}_shagai.jpg`;
     console.log(boneNr);
 
     //Нийт хэдэн морь буусныг олох

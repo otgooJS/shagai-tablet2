@@ -38,8 +38,8 @@ function initGame() {
   document.getElementById("btn-start").disabled = true;
 
   //Уралдах 2 морьны зургийг оруулах!!!!!******************* ??????????
-  document.getElementById("0-0").src = `/img/HORSE-0.png`;
-  document.getElementById("1-0").src = `/img/HORSE-1.png`;
+  document.getElementById("0-0").src = `./img/HORSE-0.png`;
+  document.getElementById("1-0").src = `./img/HORSE-1.png`;
 
   //Морьдыг гарааны байрлалд байрлуулах
   document.getElementById(`0-0`).style.marginLeft = "17px";
@@ -62,7 +62,7 @@ function shagaiRoll(player) {
   for (var x = 0; x < 4; x++) {
     var boneNr = Math.ceil(Math.random() * 4);
     //Санамсаргүй тоонд харгалзуулан шагайны зургийг оруулах
-    document.getElementById(`bone-${x + 1}`).src = `/img/${boneNr}_shagai.jpg`;
+    document.getElementById(`bone-${x + 1}`).src = `./img/${boneNr}_shagai.jpg`;
     console.log(boneNr);
 
     //Нийт хэдэн морь буусныг олох

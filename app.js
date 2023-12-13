@@ -64,9 +64,9 @@ function shagaiRoll(player) {
     //Санамсаргүй тоонд харгалзуулан шагайны зургийг оруулах
     document.getElementById(
       `bone-${x + 1}`
-    ).src = `../img/${boneNr}_shagai.jpg`;
+    ).src = `https://github.com/otgooJS/shagai-tablet2/blob/main/img/${boneNr}_shagai.jpg`;
     console.log(boneNr);
-
+    // https://github.com/otgooJS/shagai-tablet2/blob/main/img/1_shagai.jpg
     //Нийт хэдэн морь буусныг олох
     if (boneNr === 1) {
       roundScore = roundScore + 1;

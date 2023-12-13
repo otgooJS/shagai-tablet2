@@ -29,7 +29,7 @@ function initGame() {
 
   //Дөрвөн шагайны зургаа оруулах
   for (var x = 1; x < 5; x++) {
-    document.getElementById(`bone-${x}`).src = `/img/${x}_shagai.jpg`;
+    document.getElementById(`bone-${x}`).src = `./img/${x}_shagai.jpg`;
   }
 
   //ШАГАЙ ХАЯХ ТОВЧ-нууд идэвхитэй байх ёстой

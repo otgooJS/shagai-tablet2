@@ -12,7 +12,7 @@
     width: var(--max-width)  ;
     height: var(--max-height);
     /* border: 1px solid red; */
-    background-image: url(./img/Back_sized1.jpg); 
+    background-image: url(https://github.com/otgooJS/shagai-tablet2/blob/main/img/Back_sized1.jpg); 
     background-size: cover;
     display: flex;
     flex-direction: column;

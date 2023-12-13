@@ -66,7 +66,7 @@ function shagaiRoll(player) {
     //Санамсаргүй тоонд харгалзуулан шагайны зургийг оруулах
     document.getElementById(
       `bone-${x + 1}`
-    ).src = `https://otgoojs.github.io/shagai-tablet2/blob/main/img/${boneNr}_shagai.jpg`;
+    ).src = `./shagai-tablet2/blob/main/img/${boneNr}_shagai.jpg`;
     console.log(boneNr);
     //https://otgoojs.github.io/shagai-tablet2/
     // https://github.com/otgooJS/shagai-tablet2/blob/main/img/1_shagai.jpg

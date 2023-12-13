@@ -1,0 +1,123 @@
+/* ******************************************************
+*** General
+******************************************************* */
+:root {
+    --max-width: 1018px;
+    --max-height: 636px;
+    --unit-x: 47.35px;
+    --unit-y: 47.11px;
+}
+#container {
+    position: relative;
+    width: var(--max-width)  ;
+    height: var(--max-height);
+    /* border: 1px solid red; */
+    background-image: url(/img/Back_sized1.jpg); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+#start-game {
+    width: var(--max-width);
+    /* height: var((--unit-y)*4); */
+    height: 188.44px;
+    /* background-color:cadetblue; */
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    }
+
+#racing-panel {
+    /* position: absolute;     */
+    width: var(--max-width);   
+    height: 188.44px;
+    top: 188.44px;
+    background-image: url(/img/RacingPanel.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* border: 2px, solid red; */
+    }  
+#buttom {
+        position: absolute;
+        width: var(--max-width);   
+        height: 259.1px;
+        top: 376.9px;
+        /* background-color: aqua; */
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: row;
+    }
+    .buttom {
+        height: 212px;
+    }
+    #name-btn-container {
+        width: 260.8px;
+        height: 212px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    #bones-container {
+        width: 591px;
+        height: 212px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+     #btn-start {
+        margin: auto;
+    } 
+    .racing-line {
+        height: 94.22px;
+        margin-left: 11px;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: row;
+        /* justify-content:flex-start ;
+        align-items: flex-start; */
+    }  
+    .player-name {
+        font-weight: 500;
+        font-size: x-large;
+        color: rgb(87, 69, 69);
+    }
+    .horse-img {
+        /* position: relative; */
+        width: 52.1px;
+        /* !!!! */
+        height: 51.8px;
+        /* background-color: yellow; */
+        /* border: 1px solid blue; */
+        margin-left: 9px;
+        margin-right: 9px;
+        margin-top: 20px;
+    } 
+    .bone-img-container {
+     width: 118.4px;   
+     height: 80.1px;
+     /* border: 1px solid red; */
+     background-color: #fff;
+     margin-top: 50px;
+     
+    }
+    .bone {
+        width: 118.4px;
+        height: 80.1px;
+        /* background-color: #fff; */
+        /* border: 1px solid red; */
+}
+    .active {
+        font-weight: bold;
+        color: red;
+    }
+    #btn-start, #btn-0, #btn-1 {
+        font-weight:400 ;
+        font-size: x-large;
+        padding-bottom: 15px;
+        color: #333;
+    }
